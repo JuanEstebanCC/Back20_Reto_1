@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: white;
+}
+.current{
+    box-shadow: inset 0 4px 0 0 #4481eb;
+}
+.image-logo{
+    margin:10px
+}
+.btn-2 {background-image: linear-gradient(to right, #4481eb 0%, #04befe 100%);}
+.btn-2 {
+    width: 100px;
+   margin: 10px;
+   padding: 15px 80px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-2:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
