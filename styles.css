@@ -9,6 +9,7 @@ body{
 .image-logo{
     margin:10px
 }
+
 .btn-2 {background-image: linear-gradient(to right, #4481eb 0%, #04befe 100%);}
 .btn-2 {
     width: 100px;
@@ -19,7 +20,8 @@ body{
    background-size: 200% auto;
    color: white;            
    box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
+   
+   
    display: block;
  }
 
@@ -28,3 +30,56 @@ body{
    color: #fff;
    text-decoration: none;
  }
+.btn-3{
+
+    display: inline;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, #4481eb 0%, #04befe 100%);
+    width: 178px;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 11px;
+}
+.text-ride{
+    color: #09B3D9;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+.text-ride-0{
+    font-size: 50px;
+   margin-bottom: 30px;
+   
+}
+.text-content{
+    position: relative;
+    left: 93px;
+    top:3px;
+}
+.text-ride-1{
+     font-size: 15px;
+     color: gray;
+}
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+.image{
+position:absolute;
+left: 480px;
+top: 120px;
+   margin-right: 45px;
+   margin-bottom: 120px;
+}
+.discover-more{
+    left: 50px;
+    margin-top:50px;
+    color: gray;
+}
