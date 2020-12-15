@@ -3,6 +3,16 @@
 body{
     background-color: white;
 }
+.container-reto2{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
 .current{
     box-shadow: inset 0 4px 0 0 #4481eb;
 }
