@@ -1,10 +1,9 @@
-var ChristmasTree = document.getElementById("ChristmasTree");
-var hash="#";
+var ArbolNavidad = document.getElementById("ArbolNavidad");
 var output="";
-var limit=30; //Must be even number to get a star!
-var middle=limit/2;
+var limite=30; 
+var middle=limite/2;
 for(i=0; i<middle; i++){
-  for(j=0; j<limit; j++){
+  for(j=0; j<limite; j++){
     if(j==middle){
       if(i==0){
         output +="0";
@@ -19,19 +18,17 @@ for(i=0; i<middle; i++){
         output +="&nbsp;&nbsp;";
       }
     }
-
   }
-  //console.log(output);
-  ChristmasTree.innerHTML +=output + "<br>";
-  output=""; //reset
+  ArbolNavidad.innerHTML +=output + "<br>";
+  output=""; 
 }
 
-//Trunk and presents:
-for(i=0;i<limit; i++){
+
+for(i=0;i<limite; i++){
   if(i==(middle-1)){
     output +="0100100";
   }else{
-    if(i==limit/3-5){
+    if(i==limite/3-5){
     	output +="&nbsp;";
     }else{
     	output +="&nbsp;&nbsp;";
@@ -43,4 +40,4 @@ for(i=0;i<limit; i++){
 
 }
 
-ChristmasTree.innerHTML +=output + "<br>";
+ArbolNavidad.innerHTML +=output + "<br>";
